@@ -1,11 +1,11 @@
 # Published
 
-Source: Ventusltd/globalgrid2050 testcode/202609142202 at commit 6be371be5f23f5cc486d013d1a0b88062657c363
-Published: 2026-09-15T01:20:32Z by MSI Claude
+Source: Ventusltd/globalgrid2050 testcode/202609142202 at commit e84aede1c473659ca37401331fee68d7d3a33f3b
+Published: 2026-09-15T01:40:20Z by MSI Claude
 
 | file | bytes | sha256 |
 |---|---|---|
-| README.md | 23909 | 9abc7ed93debeac9f5ba14d7ed64126be6ec95db11f43c0233ccd9fee9489905 |
+| README.md | 24091 | 05f0c964b7c0d248daebf42485adb780bdd827aa452e54e587879e78c78ce8b4 |
 | amend_pack.mjs | 4289 | 1edcc0d7e98ae5faf80061c3e63af872bb4e424a5b257aed2ecd0bfaf181148b |
 | build_state.mjs | 27713 | 465f95e11addf25b0dcd8127de1c152eded9a25d460f1af5186280992515d1e3 |
 | data/all-lines.bin | 1000696 | 8291d2680e43506fd5bda23428bc9906458ed38413fc2c206d32c4b9952b2762 |
@@ -38,12 +38,12 @@ Published: 2026-09-15T01:20:32Z by MSI Claude
 | proof/critic2/physics2.mjs | 7374 | 5e5408ceca48fe3147a174bbb62ae4ab2fb26a2333907c6e9abbcec6d8e5cb27 |
 | proof/critic2/physics2b.json | 4879 | bf4670d89966df1bdfb2845c997e88ce4e1c4669dee9c457e879c7568c0c6222 |
 | proof/critic2/physics2b.mjs | 4451 | 9d61b597d51e2aa2f0b4afe9908747624dd22de25bdec74212e13bb97b8969a1 |
-| proof/gen2-1440.png | 804362 | 609a3d11e9bdbde9fc0a89a8a1809f2970b9ee11baeb8fe2545e4d5176ecbf0c |
-| proof/gen2-430.png | 296638 | 33d2ea40ccbde61931b4e132e795341a4c9637b794d3fe231d6d46d1e9bde025 |
-| proof/gen2-900x430.png | 290891 | fc3efa49b6bb630c4f24aade5dacc7611a35834b23fa2d38358dc7277ba42291 |
-| proof/gen2.json | 15587 | ef492a3871db2a23b4ab16be22f56f2df79da44abe558a9e7e3580f3f24cb640 |
+| proof/gen2-1440.png | 802581 | 10d58be6f1321484b700162b227a4383d1cad14e56e7fb642fc6f350846f8ffb |
+| proof/gen2-430.png | 296331 | 4eb8b7ab747ea2bd7ebf775763259eb74b94c606b641a12dc012946bdef3b4d1 |
+| proof/gen2-900x430.png | 290977 | 233c971826a42d1ef7f72c435b3c4c85bd78e12ecee97ffe43f9acdd35d6b0aa |
+| proof/gen2.json | 15640 | 0dbfb0f3496c5d6a896047f3e1253f6efeaa81f5aecc660ba1292cb4ef21ae3b |
 | proof/gen2.mjs | 27639 | afcb0c2059d0712ba87a2e4d5c79d03958b4a09a56a0b96a05d2f0f89caf7d31 |
-| proof/gen2.stdout.txt | 4569 | 615d5eee79762a42160117ce4c61caba21a62d0fce415c3b49ce54b0ef02fe81 |
+| proof/gen2.stdout.txt | 4572 | 3f255a429eeb573277f447edede181250a56bf0a77c892f6769fae80b1f9f956 |
 | proof/prng_check2.json | 150 | f0878304d49b570248de393a06c1f3d13585abdee0ae72a5febc4b4b0168c28d |
 | proof/prng_check2.mjs | 918 | 289189464c2ef53f3e9ef96f318358a1c471a62303057b725c1805b3bc085242 |
 | proof/proof.mjs | 7508 | 4c7fffacd6c1d9992a1136386cc33574893132b000e9eef754ba173e517afe61 |
@@ -77,5 +77,5 @@ Published: 2026-09-15T01:20:32Z by MSI Claude
 | proof/verify-2.json | 15040 | b659b31059bc482be71cf72dd450f40195384f8c70608c032430205c2c3b9b52 |
 | proof/verify-2.mjs | 22082 | 53293c7c7ed0b5ea8af718f8c22a7f5d659903498c0ff04eae6843d558cd858a |
 | proof/verify-2.stdout.txt | 2578 | 11a1806cf27355021839388f08fe52018058c55480d89171351acb2c71e975ab |
-| publication.json | 10562 | 2df0935541621e15d0d9db9a6eb72a78401e5f6bb776d92e0fc784a937b77afa |
-| quantum.js | 111635 | 008930e440ba2cce3220f915394dad239510b59d2b3f11183a45ed078c75a701 |
+| publication.json | 10562 | 8bd6b6b4bbf636a8a4f04a9434b6b580e720e36f1bbc8bc74f3d526de4520e97 |
+| quantum.js | 111792 | 14f3861599084b7e4072c962929be5352f1bd6502b661000d1ea15095d87212b |
