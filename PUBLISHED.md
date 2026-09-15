@@ -1,7 +1,7 @@
 # Published
 
-Source: Ventusltd/globalgrid2050 testcode/202609142202 at commit b1c4ec082c6ddef66f1d26e2e966280329a9d88b
-Published: 2026-09-15T00:18:48Z by MSI Claude
+Source: Ventusltd/globalgrid2050 testcode/202609142202 at commit 6be371be5f23f5cc486d013d1a0b88062657c363
+Published: 2026-09-15T01:20:32Z by MSI Claude
 
 | file | bytes | sha256 |
 |---|---|---|
@@ -42,7 +42,7 @@ Published: 2026-09-15T00:18:48Z by MSI Claude
 | proof/gen2-430.png | 296638 | 33d2ea40ccbde61931b4e132e795341a4c9637b794d3fe231d6d46d1e9bde025 |
 | proof/gen2-900x430.png | 290891 | fc3efa49b6bb630c4f24aade5dacc7611a35834b23fa2d38358dc7277ba42291 |
 | proof/gen2.json | 15587 | ef492a3871db2a23b4ab16be22f56f2df79da44abe558a9e7e3580f3f24cb640 |
-| proof/gen2.mjs | 27492 | 3bc9647175c2bbe96a84b2f039f77b421538a055951b0c18f0d9dabc6c5e4f47 |
+| proof/gen2.mjs | 27639 | afcb0c2059d0712ba87a2e4d5c79d03958b4a09a56a0b96a05d2f0f89caf7d31 |
 | proof/gen2.stdout.txt | 4569 | 615d5eee79762a42160117ce4c61caba21a62d0fce415c3b49ce54b0ef02fe81 |
 | proof/prng_check2.json | 150 | f0878304d49b570248de393a06c1f3d13585abdee0ae72a5febc4b4b0168c28d |
 | proof/prng_check2.mjs | 918 | 289189464c2ef53f3e9ef96f318358a1c471a62303057b725c1805b3bc085242 |
@@ -77,5 +77,5 @@ Published: 2026-09-15T00:18:48Z by MSI Claude
 | proof/verify-2.json | 15040 | b659b31059bc482be71cf72dd450f40195384f8c70608c032430205c2c3b9b52 |
 | proof/verify-2.mjs | 22082 | 53293c7c7ed0b5ea8af718f8c22a7f5d659903498c0ff04eae6843d558cd858a |
 | proof/verify-2.stdout.txt | 2578 | 11a1806cf27355021839388f08fe52018058c55480d89171351acb2c71e975ab |
-| publication.json | 10595 | eb1fb0f5b7d56e3961a99203bf4d9a4979fb3e2daf5585418a1907c750cdc662 |
+| publication.json | 10562 | 2df0935541621e15d0d9db9a6eb72a78401e5f6bb776d92e0fc784a937b77afa |
 | quantum.js | 111635 | 008930e440ba2cce3220f915394dad239510b59d2b3f11183a45ed078c75a701 |
