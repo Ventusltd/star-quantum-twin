@@ -1,0 +1,72 @@
+{
+  "schema": "quantum-twin.rule-twin.v1",
+  "rule": "R5 the site tile",
+  "date": "2026-09-27",
+  "principal": "Stream the measured ground where you arrive, in fixed 2,048 m lattice tiles, one request per product per tile, at least 40 s apart and at most 16 a day per client. Keep only the derived wireframe and a receipt. Never download in bulk.",
+  "twin": {
+    "kind": "measured",
+    "observations": [
+      {
+        "what": "one request for a 2,048 m terrain tile at a solar farm in England",
+        "http": 200,
+        "bytes": 16777763,
+        "cells": 4194304,
+        "valid_pct": 100
+      },
+      {
+        "what": "one request for a 4,096 m terrain box at the same farm",
+        "http": 200,
+        "bytes": 67109795,
+        "cells": 16777216,
+        "valid_pct": 100,
+        "centre_2048_identical_to_first": true
+      },
+      {
+        "what": "six sample tiles streamed onto a GPU (solar, EV forecourt, battery storage; one just over the Welsh border)",
+        "http": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "valid_pct_each": 100
+      },
+      {
+        "what": "the same ground asked for in 256 m pieces",
+        "requests": 64,
+        "refused_after": "about ten requests in three minutes"
+      }
+    ],
+    "coupling": "measured, not asserted: each clause of the principal is held by a named check in ventus-grid-engine proofs/site-tile.proof.mjs (40 checks)"
+  },
+  "positron": [
+    "the service refuses a single tile request where smaller requests succeed",
+    "a re-fetch of the same tile changes its decoded-cell sha256 with no new release",
+    "the survey index cannot give a survey year for a tile, so rows may not be scanned there, and the wireframe says so"
+  ],
+  "witnesses": [
+    {
+      "lens": "measurement",
+      "verdict": "SIGN",
+      "note": "re-decoded on GPU with a NumPy witness; measured the 4,096 m request"
+    },
+    {
+      "lens": "logic",
+      "verdict": "SIGN",
+      "note": "fixed lattice tiles, 40 s pace with a cap, stop for a person, same-or-later survey test, sha256 of decoded cells"
+    },
+    {
+      "lens": "conformance",
+      "verdict": "SIGN",
+      "note": "no conflict with the five repositories; public-safe; sourced or labelled numbers"
+    }
+  ],
+  "links": [
+    "https://github.com/Ventusltd/ventus-grid-engine/blob/main/docs/site-tile.md",
+    "https://github.com/Ventusltd/ventus-grid-engine/blob/main/proofs/site-tile.proof.mjs",
+    "https://github.com/Ventusltd/cvaa/blob/main/vaccines/202609272325-site-tile-stream.md",
+    "https://github.com/Ventusltd/stars/blob/main/decisions/d017.json"
+  ]
+}
